@@ -27,6 +27,7 @@ h4{
 }
 p{
     font-size:20px;
+    margin-right:30px;
     text-align:justify;
 }
 .center{
@@ -36,11 +37,11 @@ p{
 }
 .link{
     text-decoration: none;
-    background-color: blue;
+    background-color: pink;
     padding:10px 40px;
     border-radius: 20px;
     margin-top:40px;
-    color:white;
+    color:blue;
 }
 section{
     display:flex;
@@ -54,10 +55,11 @@ section{
 .half-inline{
     width:50%;
     margin-left:30px;
-    padding:20px 20px 0px 20px;
+    padding:20px 10px 0px 20px;
 }
 .half-inline img{
     width:50%;
+    height:100%;
 }
 #about{
     background-image: url(frame.jpg);
@@ -79,6 +81,16 @@ section{
 .recipi img{
     height:100%;
     width:100%;
+}
+button{
+    background-color: rgb(243, 220, 162);
+    border: 2px solid rgb(218, 211, 211);
+    border-radius: 5px;
+}
+.order{
+    text-decoration: none;
+    padding:10px;
+    
 }
 #moral{
     background-color:black;
