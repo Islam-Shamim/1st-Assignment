@@ -1,13 +1,19 @@
 body{
     margin:0px;
 }
+#header{
+    display:flex;
+    background-color: blue;
+    color:white;
+}
 h1{
-    margin-top:0px;
     text-align: center;
+    background-color: gray;
+    color:white;
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom:20px;
     font-size:80px;
-    background-color: cyan;
-    color:darkgoldenrod;
-    margin-bottom:10px;
 }
 h2{
     font-size:50px;
@@ -15,6 +21,9 @@ h2{
 h3{
     font-size:30px;
     text-align: center;
+}
+h4{
+    text-align: right;
 }
 p{
     font-size:20px;
@@ -25,12 +34,13 @@ p{
     font-size:20px;
     margin-bottom: 40px;
 }
-a{
+.link{
     text-decoration: none;
-    background-image:linear-gradient(tomato,red);
+    background-color: blue;
     padding:10px 40px;
     border-radius: 20px;
     margin-top:40px;
+    color:white;
 }
 section{
     display:flex;
@@ -38,8 +48,8 @@ section{
     margin-bottom:50px;
     
 }
-.div{
-    margin:20px 20px;
+#div{
+    margin:20px 20px 150px 20px;
 }
 .half-inline{
     width:50%;
@@ -47,20 +57,21 @@ section{
     padding:20px 20px 0px 20px;
 }
 .half-inline img{
-    width:100%;
+    width:50%;
 }
 #about{
     background-image: url(frame.jpg);
     background-repeat: no-repeat;
 }
 #image{
-    
-    height:400px;
+    margin-left:40px;
+    height:100%;
 }
 .recipi{
     
-   box-shadow: 10px 10px 40px gray;
-   margin-left:10px;
+   box-shadow: 10px 10px 20px gray;
+   margin-left:20px;
+   margin-right:20px;
    padding:10px 20px;
    border-radius:10px;
 }
